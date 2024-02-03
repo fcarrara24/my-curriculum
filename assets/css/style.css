@@ -546,7 +546,7 @@ i.bi{
 }
 
 span.text-muted{
-  color: white;
+  color: rgb(128, 128, 128)!important;
 }
 
 .gif-animated{
