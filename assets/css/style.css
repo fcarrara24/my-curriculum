@@ -12,7 +12,7 @@
 body {
   font-family: "Inconsolata", monospace;
   color: white;
-  background-color: #0d1e2d;
+  background-color: #3535ec;
 }
 
 a {
@@ -35,7 +35,7 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 3rem 0;
 }
 
 .filters a {
@@ -553,4 +553,35 @@ span.text-muted{
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center center;
+    
+}
+
+.my-img-container{
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.my-img-container img{
+  object-fit: cover;
+  object-position: 30%;
+  aspect-ratio: 1/1;
+  transform: scale(1.2);
+
+}
+
+.fancybox{
+  border-radius: 20px;
+}
+
+.brush-container{
+  position: absolute;
+}
+
+.item-wrap{
+  border: 2px solid white;
+}
+
+.my-blue{
+  color: #3535ec!important;
 }
