@@ -479,7 +479,7 @@ h6,
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #f8f9fa;
+  /*background: #f8f9fa;*/
   position: relative;
   text-align: center;
   color: #0d1e2d;
@@ -538,7 +538,8 @@ color: white;
 }
 
 .bi{
-  color: #000;
+  color: #3535ec;
+  font-size: 2em;
 }
 
 i.bi{
@@ -584,4 +585,8 @@ span.text-muted{
 
 .my-blue{
   color: #3535ec!important;
+}
+
+.filters > .active{
+  background-image: url('../brush/verde3.png');
 }
